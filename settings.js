@@ -10,11 +10,11 @@ const chalk = require('chalk');
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
 
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['923204566005'];
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['923074976210'];
 
 global.packname = process.env.PACKNAME || 'BOT';
 global.author = process.env.AUTHOR || 'GlobalTechInfo';
-global.botname = process.env.BOT_NAME || 'GLOBAL-XMD';
+global.botname = process.env.BOT_NAME || '𝗧н᪱ε̽ 𝐅a͜͡ɱꪸ๏፝֟𝛖̽𝛅 Aɼ̚𝛅īī ː͢» 🩷🪽';
 global.listprefix = process.env.PREFIX ? process.env.PREFIX.split(',') : ['+','!','.'];
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆'];
 
@@ -22,7 +22,7 @@ global.tempatDB = process.env.MONGODB_URI || 'database.json';
 global.tempatStore = process.env.MONGODB_URI || 'baileys_store.json';
 global.timezone = process.env.TIME_ZONE || 'UTC'
 global.pairing_code = process.env.PAIRING_CODE !== 'false';
-global.number_bot = process.env.BOT_NUMBER || '';
+global.number_bot = process.env.BOT_NUMBER || '923074976210';
 
 global.my = {
 	yt: process.env.MY_YOUTUBE || 'https://youtube.com/@GlobalTechInfo',
